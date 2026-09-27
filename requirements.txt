@@ -1,0 +1,26 @@
+# Core
+numpy
+pandas
+scikit-learn
+tqdm
+matplotlib
+seaborn
+
+# Deep learning / transformers
+torch>=1.13
+transformers>=4.30
+sentencepiece        # required by DeBERTa-v3 tokenizers
+protobuf
+pytorch-crf          # `import torchcrf` (BERT-base + CRF)
+seqeval
+iterative-stratification   # `iterstrat` (multilabel stratified k-fold)
+huggingface_hub
+
+# spaCy pipeline
+spacy>=3.8.3,<3.9.0
+spacy-transformers
+
+# Data preparation / augmentation
+nltk
+fuzzywuzzy
+python-Levenshtein

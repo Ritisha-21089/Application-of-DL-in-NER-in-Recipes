@@ -1,0 +1,28 @@
+# ---- Model weights / checkpoints (too large for GitHub, see models/README.md) ----
+models/**
+!models/README.md
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# ---- Old / leftover folders from the pre-restructure layout ----
+models_files/
+data/model/
+.git_old/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Python / Jupyter ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+wandb/
